@@ -1,0 +1,98 @@
+body,html{
+   
+    margin: 0;
+    padding: 0;
+   
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #3B4664;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    align-items: center;
+}
+.display{
+   width:33vw;
+    height: 20vh;
+    background-color:#181F32 ;
+    margin: 2rem;
+}
+.input{
+    width:33vw;
+    height: 20vh;
+    background-color:#181F32 ;
+   font-size: 8vh;
+   color: white;
+    border: none;
+   
+
+}
+.area{
+    width:33vw;
+     height: 55.2vh;
+     background-color: #181F32;
+     margin-bottom: 1.3rem;
+ }
+ .firstrow{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0.4rem;
+    flex-wrap: wrap;
+ }
+ .btn{
+    width: 7vw;
+    height: 7vh;
+    font-size: 5vh;
+    font-weight: 800;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    border: none;
+    border-radius: 12px 12px 12px 12px;
+    transition: 0.25s;
+  }
+.btn:active{
+    background-color: rgb(112, 107, 101);
+    box-shadow: 5px 5px;
+  
+}
+#Del{
+    background-color:#647299;
+    color: white;
+    padding: 0.2rem;
+    font-size: 2.6vh;
+}
+.secondrow{
+    display: flex;
+    justify-content:space-around;
+  margin:rem;
+}
+#reset{
+    width: 14.6vw;
+    height: 7vh;
+    background-color:#647299;
+    color: white;
+    font-size: 2.6vh;
+    font-weight: 800;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    margin-left: 0.4rem;
+    border: none;
+    border-radius: 12px 12px 12px 12px;
+}
+#equal{
+    width: 14.6vw;
+    height: 7vh;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    margin-right: 0.4rem;
+    border: none;
+    border-radius: 12px 12px 12px 12px;
+    background-color: #D13F30;
+    color: white;
+}
+
+ 
